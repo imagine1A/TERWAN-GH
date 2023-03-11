@@ -6,7 +6,7 @@ const mySlider_nav = new Swiper('.mySlider-nav', {
     // slideOffsetAfter: -60,
     // swiperSlideSize: 320,
     
-    slidesPerGroup:2,
+    slidesPerGroup:1,
     slidesPerView : 6,
     spaceBetween : -100, 
     
@@ -18,13 +18,13 @@ const mySlider_nav = new Swiper('.mySlider-nav', {
         },
         
         576: {
-    slidesPerGroup:2,
+    slidesPerGroup:3,
     slidesPerView : 3,
     spaceBetween : -40, 
         },
         
          768: {
-    slidesPerGroup:2,
+    slidesPerGroup:3,
     slidesPerView : 4,
     spaceBetween : -100, 
         },
@@ -35,13 +35,19 @@ const mySlider_nav = new Swiper('.mySlider-nav', {
         },
         
         1200: {
-    slidesPerGroup:2,
+    slidesPerGroup:3,
     slidesPerView : 6,
     spaceBetween : -100, 
         }
     },
-   
+   grabCursor: true,
+    allowTouchMove: true,
+    simulateTouch: true,
+    touchEventsTarget: 'swiper-wrapper',
+    touchRatio: 2,
   });
+
+
 
 
 
@@ -104,6 +110,10 @@ const swiper1 = new Swiper('.mySlider-1', {
     //   el: '.swiper-scrollbar',
     // },
   });
+
+
+
+
 
 
 const swiper2 = new Swiper('.mySlider-2', {
