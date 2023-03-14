@@ -254,7 +254,7 @@ section .content {
   cursor: pointer;
   padding: 7px 0px;
   position: relative;
-  margin: 0 9px;
+  margin: 0 0px;
   transition: all 0.3s ease;
 }
 
@@ -878,7 +878,7 @@ section .content {
 }
 
 .swiper-slide.tab_nav.swiper-slide-next {
-  margin-left: -100px;
+  /*margin-left: -100px;*/
 }
 
 @media (min-width: 576px) {

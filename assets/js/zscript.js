@@ -6,15 +6,17 @@ const mySlider_nav = new Swiper('.mySlider-nav', {
     // slideOffsetAfter: -60,
     // swiperSlideSize: 320,
     
-    slidesPerGroup:1,
-    slidesPerView : 6,
-    spaceBetween : -100, 
+    
+    
+    // slidesPerGroup:1,
+    slidesPerView : 2,
+    spaceBetween : -80,
     
     breakpoints: {
         360: {
-    slidesPerGroup:1,
+    // slidesPerGroup:auto,
     slidesPerView : 2,
-    spaceBetween : -80, 
+    spaceBetween : -15, 
         },
         
         576: {
@@ -40,12 +42,10 @@ const mySlider_nav = new Swiper('.mySlider-nav', {
     spaceBetween : -100, 
         }
     },
-   grabCursor: true,
-    allowTouchMove: true,
-    simulateTouch: true,
+      
     touchEventsTarget: 'swiper-wrapper',
-    touchRatio: 1,
-    centeredSlidesBounds:true,
+    touchRatio: 2,
+    // centeredSlidesBounds:true,
   });
 
 
