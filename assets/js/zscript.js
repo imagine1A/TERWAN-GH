@@ -13,8 +13,8 @@ const mySlider_nav = new Swiper('.mySlider-nav', {
     breakpoints: {
         360: {
     slidesPerGroup:1,
-    slidesPerView : 1,
-    spaceBetween : -190, 
+    slidesPerView : 2,
+    spaceBetween : -80, 
         },
         
         576: {
@@ -44,7 +44,8 @@ const mySlider_nav = new Swiper('.mySlider-nav', {
     allowTouchMove: true,
     simulateTouch: true,
     touchEventsTarget: 'swiper-wrapper',
-    touchRatio: 2,
+    touchRatio: 1,
+    centeredSlidesBounds:true,
   });
 
 

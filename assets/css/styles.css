@@ -351,8 +351,8 @@ section .content {
   height: 400px;
   padding-top: 70px;
   padding-bottom: 50px;
-  padding-left: 55px;
-  padding-right: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -554,7 +554,7 @@ section .content {
 }
 
 .car-parts-container {
-  padding-left: 45px;
+  padding-left: 28px;
 }
 
 @media (min-width: 576px) {
@@ -800,7 +800,7 @@ section .content {
 .swiper-slide.tab_nav1 {
   height: fit-content;
   display: flex;
-  /*justify-content: start;*/
+  /*justify-content: center;*/
   width: fit-content;
 }
 
@@ -864,6 +864,50 @@ section .content {
     background-color: #151618;
     width: 50%;
     height: 100%;
+  }
+}
+
+.hero-banner-text {
+  margin-left: 0px;
+}
+
+@media (min-width: 576px) {
+  .hero-banner-text {
+    margin-left: -10px;
+  }
+}
+
+.swiper-slide.tab_nav.swiper-slide-next {
+  margin-left: -100px;
+}
+
+@media (min-width: 576px) {
+  .swiper-slide.tab_nav.swiper-slide-next {
+    margin-left: -35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .swiper-slide.tab_nav.swiper-slide-next {
+    margin-left: -50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .swiper-slide.tab_nav.swiper-slide-next {
+    margin-left: -90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .swiper-slide.tab_nav.swiper-slide-next {
+    margin-left: -65px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .swiper-slide.tab_nav.swiper-slide-next {
+    margin-left: -100px;
   }
 }
 
