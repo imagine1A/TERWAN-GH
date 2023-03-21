@@ -121,6 +121,14 @@
   }
 }
 
+@media (min-width: 1920px) {
+  .image-section-banner {
+    margin-right: -326px;
+    height: 335px;
+    width: 612px;
+  }
+}
+
 .image-section-banner-1 {
   z-index: 1;
   height: 193px;
@@ -159,9 +167,25 @@
 
 @media (min-width: 1200px) {
   .image-section-banner-1 {
-    z-index: 1;
     height: 300px;
     width: 500px;
+    margin-left: -328px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .image-section-banner-1 {
+    margin-left: -326px;
+    height: 300px;
+    width: 516px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .image-section-banner-1 {
+    z-index: 1;
+    height: 335px;
+    width: 610px;
     background: url("../../assets/img/image%2031.png") center / cover no-repeat;
     border-radius: 4px;
     margin-left: -328px;
@@ -206,9 +230,25 @@
 
 @media (min-width: 1200px) {
   .image-section-banner-2 {
-    z-index: 1;
     height: 300px;
     width: 500px;
+    margin-right: -235px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .image-section-banner-2 {
+    margin-right: -326px;
+    height: 300px;
+    width: 516px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .image-section-banner-2 {
+    z-index: 1;
+    height: 335px;
+    width: 610px;
     background: url("../../assets/img/image%2028.png") center / cover no-repeat;
     border-radius: 4px;
     margin-right: -235px;
@@ -634,7 +674,7 @@ section .content {
 
 .about-us {
   height: 450px;
-  width: 320px;
+  width: 325px;
   color: #389834;
   font-family: 'Gilroy';
   font-size: 14px;
@@ -645,6 +685,7 @@ section .content {
 
 @media (min-width: 576px) {
   .about-us {
+    width: 470px;
     padding: 10px;
     margin-top: 50px;
     margin-left: -500px;
@@ -653,9 +694,19 @@ section .content {
 
 @media (min-width: 768px) {
   .about-us {
+    width: 543px;
     padding: 10px;
     margin-top: 50px;
-    margin-left: -580px;
+    margin-left: -636px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about-us {
+    width: 624px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: -830px;
   }
 }
 
@@ -678,6 +729,13 @@ section .content {
     gap: 12px;
     padding: 8px;
     border-top: 1px solid rgb(206,206,206);
+  }
+}
+
+@media (min-width: 1400px) {
+  .process-item {
+    height: 120px;
+    width: 350px;
   }
 }
 
@@ -908,6 +966,29 @@ section .content {
 @media (min-width: 1400px) {
   .swiper-slide.tab_nav.swiper-slide-next {
     margin-left: -100px;
+  }
+}
+
+.item-title span {
+  font-size: 17.8px;
+}
+
+.peeple-say {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 35px;
+}
+
+@media (min-width: 576px) {
+  .peeple-say {
+    gap: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .peeple-say {
+    gap: 210px;
   }
 }
 

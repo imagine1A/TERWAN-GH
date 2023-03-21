@@ -92,6 +92,11 @@ const swiper1 = new Swiper('.mySlider-1', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+      1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
     // If we need pagination
@@ -156,6 +161,11 @@ const swiper2 = new Swiper('.mySlider-2', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
     
@@ -218,6 +228,11 @@ const swiper3 = new Swiper('.mySlider-3', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
     
@@ -279,6 +294,11 @@ const swiper4 = new Swiper('.mySlider-4', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
     
@@ -340,6 +360,11 @@ const swiper5 = new Swiper('.mySlider-5', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
     
@@ -401,8 +426,14 @@ const swiper5 = new Swiper('.mySlider-5', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
+      
     // If we need pagination
     pagination: {
       el: '.swiper-pagination6',
@@ -461,6 +492,11 @@ const swiper5 = new Swiper('.mySlider-5', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
     // If we need pagination
@@ -521,8 +557,14 @@ const swiper5 = new Swiper('.mySlider-5', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
+      
     // If we need pagination
     pagination: {
       el: '.swiper-pagination8',
@@ -581,6 +623,11 @@ const swiper5 = new Swiper('.mySlider-5', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
     // If we need pagination
@@ -641,6 +688,11 @@ const swiper5 = new Swiper('.mySlider-5', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
     // If we need pagination
@@ -701,6 +753,11 @@ const swiper5 = new Swiper('.mySlider-5', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
     // If we need pagination
@@ -760,6 +817,11 @@ const swiper12 = new Swiper('.mySlider-12', {
     slidesPerGroup:2,
     slidesPerView : 3,
     spaceBetween : -150, 
+        },
+        1920: {
+    slidesPerGroup:2,
+    slidesPerView : 4,
+    spaceBetween : -250, 
         }
     },
     
